@@ -16,6 +16,11 @@
 	</organization>
 	
 	<description>Maven Standalone Application</description>
+	
+	<properties>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+        </properties>
 
 	<properties>
 		<sonar.host.url>http://35.154.242.68:9000/</sonar.host.url>
